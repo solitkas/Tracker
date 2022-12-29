@@ -140,7 +140,7 @@ while True:
 
         timestamp = time.time()
     
-    # end sesstion
+    # end sesstion / session 
     if session_id == len(ACTIVITIES) + 1:
         data_save()
         analytics()
